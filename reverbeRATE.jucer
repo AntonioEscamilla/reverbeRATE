@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="fY7HRT" name="reverbeRATE" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="upb.reverbeRATE" includeBinaryInAppConfig="1"
+              jucerVersion="4.1.0" companyName="U.P.B">
+  <MAINGROUP id="XkoI7J" name="reverbeRATE">
+    <GROUP id="{0A67C638-618A-6826-0EDA-F1F74FDD0527}" name="Resources">
+      <FILE id="eQpCF9" name="icon.png" compile="0" resource="1" file="Resources/icon.png"/>
+      <FILE id="Nzlx61" name="IR1.wav" compile="0" resource="0" file="Resources/IR1.wav"
+            xcodeResource="1"/>
+      <FILE id="VkQINT" name="IR2.wav" compile="0" resource="0" file="Resources/IR2.wav"
+            xcodeResource="1"/>
+      <FILE id="UbMCNW" name="IR3.wav" compile="0" resource="0" file="Resources/IR3.wav"
+            xcodeResource="1"/>
+      <FILE id="hEuvus" name="IR4.wav" compile="0" resource="0" file="Resources/IR4.wav"
+            xcodeResource="1"/>
+      <FILE id="pLHuL6" name="IR5.wav" compile="0" resource="0" file="Resources/IR5.wav"
+            xcodeResource="1"/>
+      <FILE id="pXOPb7" name="IRboton.png" compile="0" resource="1" file="Resources/IRboton.png"/>
+      <FILE id="B3J5hW" name="UPB80.jpg" compile="0" resource="1" file="Resources/UPB80.jpg"/>
+      <FILE id="Y16fVp" name="waves.gif" compile="0" resource="1" file="Resources/waves.gif"/>
+    </GROUP>
+    <GROUP id="{9458B304-CFE2-2689-5297-905D79866338}" name="Source">
+      <GROUP id="{40D75EF2-A1EB-3BD1-02AD-8D1032D4951B}" name="convClass">
+        <FILE id="sNdfyk" name="OverlapAddConvolver.cpp" compile="1" resource="0"
+              file="Source/convClass/OverlapAddConvolver.cpp"/>
+        <FILE id="SBSDJO" name="OverlapAddConvolver.h" compile="0" resource="0"
+              file="Source/convClass/OverlapAddConvolver.h"/>
+        <FILE id="cP04lF" name="StereoHeadTailPartConv.cpp" compile="1" resource="0"
+              file="Source/convClass/StereoHeadTailPartConv.cpp"/>
+        <FILE id="iEfeVd" name="StereoHeadTailPartConv.h" compile="0" resource="0"
+              file="Source/convClass/StereoHeadTailPartConv.h"/>
+        <FILE id="moIdBs" name="TailThreadPoolJob.cpp" compile="1" resource="0"
+              file="Source/convClass/TailThreadPoolJob.cpp"/>
+        <FILE id="RO4uVY" name="TailThreadPoolJob.h" compile="0" resource="0"
+              file="Source/convClass/TailThreadPoolJob.h"/>
+      </GROUP>
+      <FILE id="MxtsaY" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="aOCgmb" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="KJsekl" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" externalLibraries="" extraLinkerFlags="-lfftw3"
+               smallIcon="eQpCF9" bigIcon="eQpCF9">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="10.10 SDK" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="reverbeRATE" headerPath="/usr/local/include"
+                       libraryPath="/usr/local/lib"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="10.10 SDK"
+                       osxArchitecture="default" isDebug="0" optimisation="3" targetName="reverbeRATE"
+                       headerPath="/usr/local/include" libraryPath="/usr/local/lib"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce-grapefruit-osx/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce-grapefruit-osx/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
