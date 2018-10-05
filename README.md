@@ -15,10 +15,14 @@ For the use of the application it is necessary to have enabled an audio input fr
 ![reverberate_1](https://user-images.githubusercontent.com/7999008/46563297-41557700-c8c6-11e8-95e4-1e544f0841c0.png)
 
 ### 1. Load an Impulse Response
-The green button on the left shows a small representation of an impulse response and when you click on it, a menu with a list of impulse responses available for the convolution is displayed. The set of responses to impulse seeks to be broad and diverse, so it is possible to use responses to the impulse of venues such as a church, a government palace, an auditorium, a silo and mechanical systems such as a plate or a spring. See figure 2.
+The green button on the left shows a small representation of an impulse response and when you click on it, a menu with a list of impulse responses available for the convolution is displayed. The set of responses to impulse seeks to be broad and diverse, so it is possible to use responses to the impulse of venues such as a church, a government palace, an auditorium, a silo and mechanical systems such as a plate or a spring. See Figure 2.
+
+![reverberate_2](https://user-images.githubusercontent.com/7999008/46563437-16b7ee00-c8c7-11e8-8ca9-522265f94255.png)
 
 ### 2. Real Time Convolution
-The button on the right, initially inactive in black and white, represents the diffusivity of the acoustic field that is generated in the enclosures and the sensation of filling all the space that produces the reverberation. Clicking on this button activates the capture of the signal coming from the microphone, the convolution process in real time with the response to the selected impulse and the activation of the stereo output with the result. The toggle type button activates or deactivates this state and allows to interrupt the audio processing.
+The button on the right, initially inactive in black and white, represents the diffusivity of the acoustic field that is generated in the enclosures and the sensation of filling all the space that produces the reverberation. Clicking on this button activates the capture of the signal coming from the microphone, the convolution process in real time with the response to the selected impulse and the activation of the stereo output with the result. The toggle type button activates or deactivates this state and allows to interrupt the audio processing. See Figure 3.
+
+![reverberate_3](https://user-images.githubusercontent.com/7999008/46563510-79a98500-c8c7-11e8-81b8-47f8b4aba7af.png)
 
 ## About this Software
 reverbeRATE was developed by **Antonio Escamilla Pinilla** and **José Ricardo Zapata González** working for the Universidad Pontificia Bolivariana, in the context of a research project entitled **Software Development for Measurement, Processing and Analysis of Acoustic Impulse Responses**. Project funded by the Research Center for Development and Innovation CIDI-UPB with number 771B-06/17-23.
