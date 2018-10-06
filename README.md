@@ -12,7 +12,7 @@ For the use of the application it is necessary to have enabled an audio input fr
 ## Running the App
 **reverbeRATE** presents a simple and minimalist user interface, to facilitate the use of the App. The main window only has two buttons to control the application, as shown in Figure 1.
 
-![reverberate_1](https://user-images.githubusercontent.com/7999008/46563297-41557700-c8c6-11e8-95e4-1e544f0841c0.png)
+![reverberate_1](https://github.com/AntonioEscamilla/images-in-readMe/blob/master/reverbeRATE/reverbeRATE_1.png)
 
 ### 1. Load an Impulse Response
 The green button on the left shows a small representation of an impulse response and when you click on it, a menu with a list of impulse responses available for the convolution is displayed. The set of responses to impulse seeks to be broad and diverse, so it is possible to use responses to the impulse of venues such as a church, a government palace, an auditorium, a silo and mechanical systems such as a plate or a spring. See Figure 2.
